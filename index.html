@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Destresser</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            color: #00ff00;
+            background: #000000;
+            font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 24px;
+        }
+        a:link, a:visited, a:active, a:hover {
+            color: #00ff00;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+<p>
+    <span id="backup" onclick="toggleBackup();">X?</span>
+    <span id="console">[D]</span>
+    <a href="#" onclick="rit(1); this.onclick=null;">1</a>
+    <a href="#" onclick="rit(2); this.onclick=null;">2</a>
+    <a href="#" onclick="rit(3); this.onclick=null;">3</a>
+    <a href="#" onclick="rit(4); this.onclick=null;">4</a>
+    <a href="#" onclick="rit(5); this.onclick=null;">5</a>
+    <a href="#" onclick="rit(6); this.onclick=null;">6</a>
+    <a href="#" onclick="rit(7); this.onclick=null;">7</a>
+    <a href="#" onclick="removeOutlines()">Done</a>
+</p>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/three.js"></script>
+<script src="js/OrbitControls.js"></script>
+<script src="custom/setup.js"></script>
+<script src="custom/models.js"></script>
+<script src="custom/scanner.js"></script>
+</body>
+</html>
